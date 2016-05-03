@@ -7,7 +7,7 @@ ZSH=$HOME/.oh-my-zsh
 # time that oh-my-zsh is loaded.
 ZSH_THEME="sunrise"
 # Cool themes: muse, juanghurtado(?), nanotech, sunrise, eastwood, gallois,
-# gentoo, kphoen, 
+# gentoo, kphoen,
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
@@ -118,25 +118,25 @@ alias upgrade_vim="rbenv local system && brew unlink vim && brew install vim --w
 # Thunderbird
 alias thunderbird="open -a Thunderbird"
 
-alias jirc="ssh jyrkililja@server1.jlilja.net -t 'screen -DRUS jyrkililja-irssi'"
-alias jln1="ssh root@server1.jlilja.net -t 'byobu'"
-alias hp1="ssh jyrkililja@hp1 -t 'tmux attach || tmux'"
+#alias jirc="ssh jyrkililja@server1.jlilja.net -t 'screen -DRUS jyrkililja-irssi'"
+#alias jln1="ssh root@server1.jlilja.net -t 'byobu'"
+#alias hp1="ssh jyrkililja@hp1 -t 'tmux attach || tmux'"
 
 # Focus Flow {
-    alias backup1.focusflow.net="ssh root@backup1.focusflow.net -t 'screen -DRUS jyrkililja'"
-    alias pfactori="ssh root@164.215.38.8 -t 'screen -DRUS jyrkililja'"
-    alias dev1="ssh root@dev1.thefactori.com -t 'screen -DRUS jyrkililja'"
-    alias flow1="ssh root@server.focusflow.net -t 'screen -DRUS jyrkililja'"
-    alias flow2="ssh root@server.focusflow2.net -t 'screen -DRUS jyrkililja'"
-    alias flow3="ssh root@server3.focusflow.net -t 'screen -DRUS jyrkililja'"
-    alias flow4="ssh root@server4.focusflow.net -t 'screen -DRUS jyrkililja'"
-    alias flow5="ssh root@server5.focusflow.net -t 'screen -DRUS jyrkililja'"
-    alias flowns1="ssh root@77.86.176.114 -t 'screen -DRUS jyrkililja'"
-    alias flowns2="ssh root@77.86.252.138 -t 'screen -DRUS jyrkililja'"
-    alias flowns3="ssh root@94.237.28.18 -t 'screen -DRUS jyrkililja'"
-    alias aa1="ssh root@aa1.focusflow.net -t 'screen -DRUS jyrkililja'"
-    alias git.focusflow.net="ssh root@git.focusflow.net -t 'screen -DRUS jyrkililja'"
-    alias mhyp.focusflow.net="ssh root@mhyp.focusflow.net -t 'screen -DRUS jyrkililja'"
+    alias backup1.focusflow.net="ssh root@backup1.focusflow.net -t 'screen -DRUS pyry.pennanen'"
+    alias pfactori="ssh root@164.215.38.8 -t 'screen -DRUS pyry.pennanen'"
+    alias dev1="ssh root@dev1.thefactori.com -t 'screen -DRUS pyry.pennanen'"
+    alias flow1="ssh root@server.focusflow.net -t 'screen -DRUS pyry.pennanen'"
+    alias flow2="ssh root@server.focusflow2.net -t 'screen -DRUS pyry.pennanen'"
+    alias flow3="ssh root@server3.focusflow.net -t 'screen -DRUS pyry.pennanen'"
+    alias flow4="ssh root@server4.focusflow.net -t 'screen -DRUS pyry.pennanen'"
+    alias flow5="ssh root@server5.focusflow.net -t 'screen -DRUS pyry.pennanen'"
+    alias flowns1="ssh root@77.86.176.114 -t 'screen -DRUS pyry.pennanen'"
+    alias flowns2="ssh root@77.86.176.115 -t 'screen -DRUS pyry.pennanen'"
+    alias flowns3="ssh root@94.237.28.18 -t 'screen -DRUS pyry.pennanen'"
+    alias aa1="ssh root@aa1.focusflow.net -t 'screen -DRUS pyry.pennanen'"
+    alias git.focusflow.net="ssh root@git.focusflow.net -t 'screen -DRUS pyry.pennanen'"
+    alias mhyp.focusflow.net="ssh root@mhyp.focusflow.net -t 'screen -DRUS pyry.pennanen'"
 
     function query_flowns() {
         for i in 1 2 3; do
@@ -158,4 +158,3 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 pre_path "$HOME/bin"
 
 export PATH
-
